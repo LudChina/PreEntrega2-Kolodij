@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /*background-color: #d0c3ba;*/
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+}
+
+
+/**      HEADER      **/
+
+#header{
+    background-color: #d0c3ba;
+    /*border: 10px solid #da7a69;*/
+    border-bottom: 10px solid #4d4b4a;
+    display: flex;
+
+    
+}
+
+.logo{
+    /*border: 10px solid whitesmoke;*/
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+nav#menu{
+    margin-top: 100px;
+    margin-left: 600px;
+    
+}
+
+.menu li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #4d4b4a;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+li{
+  list-style: none;
+  display: inline;
+  
+}
+
+
+
+/** FOOTER **/
+  #footer{
+    margin-bottom: 0;
+    display: flex;
+    background-color: whitesmoke;
+    border-top: 10px solid #cab1a5;
+  }
+
+  img.footer{
+    width: 60px;
+    height: auto;
+    margin: 30px;
+  }
+
+  ul.footer{
+    margin-top: 40px;
+  }
+
+  p.footer a{
+    text-decoration: none;
+    color: #4d4b4a;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  p.contacto{
+    margin-top: 10px;
+  }
+
+
+/** INDEX **/
+
+div.sumireTejidos{
+
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    color: #4d4b4a;
+}
+
+/*h3, h4, h2{
+    margin-top: 20px;
+}*/
+
+div#tienda{
+    background-color: #cab1a5;
+    text-align: center;
+    height: 200px;
+}
+
+h2.tienda {
+    color: #4d4b4a;
+    padding-top: 50px;
+}
+
+a.tienda{
+    text-decoration: none;
+    color: #4d4b4a;
+    font-size: xx-large;  
+    text-decoration: underline;
+}
+
+p.tienda{
+    font-weight: bold;
+    color:#4d4b4a;
+    padding-top: 40px;
+}
+
+div#suscripcion{
+    height: 100px;
+    background-color: #4d4b4a;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p.suscripcion{
+    color: whitesmoke;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+a.suscripcion{
+    color: #cab1a5;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+
+/** NOSOTROS**/
+
+
+section#nosotros{
+    margin: 100px;
+    width: 400px;
+    font-weight: bold;
+    display: inline-flex;
+
+}
+
+div.descripcion{
+    background-color: #4d4b4a;
+    border-radius: 10px;
+    height: 550px;
+    margin-top: 50px;
+}
+
+ div.descripcion p{
+    width: 450px;
+    margin-top: 25px;
+    padding: 15px;
+    color: #cab1a5;
+ }
+
+
+
+img.retrato{
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    border: 5px solid #cab1a5;
+    
+}
+
+
+/** PRODUCTOS **/
+
+
+div.shop{
+    background-color: #4d4b4a;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    width: auto;
+    height: 40px;
+}
+
+.shop{
+    padding-top: 5px;
+
+}
+
+div.grid-productos{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    width: 200px;
+    margin: 150px 260px;
+    justify-items: center;
+}
+
+div.grid-productos img{
+    border: 5px solid #cab1a5;
+    border-radius: 5px;
+}
+
+p.producto{
+    background-color: #cab1a5;
+    border: 5px solid #cab1a5;
+    color: #4d4b4a;
+    text-align: center;
+    font-weight: bold;
+}
+
+/** PATRONES **/
+
+h3{
+    background-color: #4d4b4a;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 50px;
+    width: auto;
+    height: 40px;
+    padding-top: 5px;
+}
+
+iframe.video-principal{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+div#videos{
+    display: flex;
+    background-color: #d0c3ba;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 10px solid #4d4b4a;
+    border-bottom: 10px solid #4d4b4a;
+}
+
+iframe.videos{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+/** CONTACTO **/
+
+
+div.opciones{
+    text-align: left;
+    color: #4d4b4a;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+select#opciones{
+    width: 90%;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    color: #4d4b4a;
+}
+
+div.name, div.email, div.comentario{
+    color: #4d4b4a;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+input#name, input#email{
+    width: 20%;
+    height: 30px;
+    font-size: medium;
+    color: #4d4b4a;
+    font-weight: bold;
+}
+
+textarea#comentario{
+    width: 90%;
+    height: 60px;
+    font-size: medium;
+    font-weight: bold;
+    color: #4d4b4a;
+    margin-top: 10px;
+}
+
+div.novedades{
+    color: #4d4b4a;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+input.botones{
+    color: #4d4b4a;
+    background-color: #cab1a5;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 400px;
+    width: 130px;
+    margin-bottom: 100px;
+}
+
+
+
+select#opciones, input.novedades, input.botones{
+    cursor: pointer;
+} 
+
+input{
+    margin: 10px;
+}
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sumire Tejidos</title>
+    
+</head>
+<body>
+
+    <header id="header">
+        <a href="../index.html"><img class="logo" src="../IMAGENES/logo.jpeg" alt="logo"></a>
+    <nav id="menu">
+        <ul class="menu">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../pages/nosotros.html" target="_self">Nosotros</a></li>
+            <li><a href="../pages/productos.html" target="_self">Tienda</a></li>
+            <li><a href="../pages/patrones.html" target="_self">Patrones</a></li>
+            <li><a href="../pages/contacto.html" target="_self">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="contacto">
+
+    <!--<div class="form">-->
+
+<form action="">
+
+    <div class="opciones">
+        <label for="opciones">MOTIVO DE CONSULTA
+          <select name="opciones" id="opciones">
+            <option value="0"></option>
+            <option value="1">Contacto</option>
+            <option value="2">Productos</option>
+            <option value="3">Cursos</option>
+            <option value="4">Suscripción</option>
+          </select>
+        </label>
+     </div>
+
+     <div class="name">
+        <label for="name">NOMBRE</label>
+        <input type="text" id="name" placeholder="Escriba su nombre" required>
+     </div>
+
+
+    <div class="email">
+       <label for="email">EMAIL</label>
+       <input type="email" id="email" placeholder="Escriba su email" required>
+    </div>
+    
+    <div class="comentario">
+        <label for="comentario">COMENTARIO</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Escriba su consulta"></textarea>
+     </div>
+
+    
+     <div class="novedades">
+        <p>¿Deseas recibir nuestras novedades?</p>
+           <label for="novedades">
+             <input type="radio" name="novedades" id="si" class="novedades">SI
+             <input type="radio" name="novedades" id="no" class="novedades">NO
+           </label>
+      </div>
+
+      <div class="botones">
+          <input type="reset" value="BORRAR" class="botones">
+          <input type="submit" value="ENVIAR" class="botones">
+      </div>
+  </form> 
+
+</section>
+
+<!--<section id="contacto">
+    <div class="imagen-contacto">
+        <img class="imagen1" src="../IMAGENES/imagen-contacto.jpg" alt="crochet">
+    </div>
+    <div class="imagen-contacto">
+        <img class="imagen2" src="../IMAGENES/imagen-contacto2.jpg" alt="crochet">
+    </div>
+    
+    <h2 class="form">Dejanos tu consulta o comentario</h2>
+
+    <div class="form">
+
+        <form action="">
+
+            <div class="name">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Escriba su nombre" required>
+             </div>
+
+
+            <div class="email">
+               <label for="email">Email:</label>
+               <input type="email" id="email" placeholder="Escriba su email" required>
+            </div>
+
+
+            <div class="opciones">
+               <label for="opciones">¿Cuál es tu consulta?
+                 <select name="opciones" id="opciones">
+                   <option value="0"></option>
+                   <option value="1">Contacto</option>
+                   <option value="2">Productos</option>
+                   <option value="3">Cursos</option>
+                 </select>
+               </label>
+            </div>
+    
+            <div class="comentario">
+               <label for="comentario">Comentario:</label>
+                 <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Escriba su consulta"></textarea>
+            </div>
+
+
+            <div class="novedades">
+              <p>¿Deseas recibir nuestras novedades?</p>
+                 <label for="novedades">
+                   <input type="radio" name="novedades" id="si">SI
+                   <input type="radio" name="novedades" id="no">NO
+                 </label>
+            </div>
+
+            <div class="botones">
+                <input type="reset" value="BORRAR" class="botones">
+                <input type="submit" value="ENVIAR" class="botones">
+            </div>
+        </form>
+    </div>
+</section> -->
+
+<footer id="footer">
+    <img class="footer" src="../IMAGENES/instagram.jpg" alt="instagram">
+    <ul class="footer">
+        <li><p class="footer"><a class="footer" href="https://instagram.com/sumiretejidos?igshid=YmMyMTA2M2Y=" target="_blank">Seguinos en nuestras redes</a></p></li>
+        <li><p class="footer contacto"><a class="footer" href="../pages/contacto.html">Contacto</a></p></li>
+    </ul>
+</footer>
+
+</body>
+</html>
