@@ -49,6 +49,12 @@ img.instagram{
     height: auto;
 }
 
+@media (max-width: 765px) {
+    nav.navbar{
+        display: block;    
+    }
+}
+
 /**CAROUSEL**/
 
 div#carouselExampleIndicators{
@@ -56,9 +62,9 @@ div#carouselExampleIndicators{
     
 }
 
-/** DIV PRODUCTOS **/
+/** DIV shopNow **/
 
-div.productos{
+div.shopNow{
     margin-top: 100px;
     height: 200px !important;
     padding-top: 60px;
@@ -105,7 +111,35 @@ a.footer:hover{
 
 /** NOSOTROS**/
 
+div.presentacion{
+    padding: 15px;
+}
 
+div.nosotros{
+    background-color: #4d4b4a;
+    border-radius: 10px;
+    margin-top: 120px;;
+    height: 500px;
+}
+
+div.nosotros p{
+    color: white;
+    padding: 15px;
+}
+
+div.retrato{
+    height: 700px;
+    background-color: white;
+
+}
+img.retrato{
+    width: 400px;
+    height: auto;
+    padding: 0%;
+    margin-top: 90px;
+}
+
+/**1er ENTREGA
 section#nosotros{
     margin: 100px;
     width: 400px;
@@ -138,11 +172,28 @@ img.retrato{
     border: 5px solid #cab1a5;
     
 }
-
+**/
 
 /** PRODUCTOS **/
 
+div.productos{
+    background-color: #cab1a5;
+    border: 5px solid #4d4b4a;
+    border-radius: 10px;
+    margin-top: 100px;
+}
 
+div .foto{
+    margin-top: 20px;
+}
+
+div.productos p{
+    color: #4d4b4a;
+    font-size: 1.5rem;
+}
+
+
+/**1er entrega
 div.shop{
     background-color: #4d4b4a;
     text-align: center;
@@ -181,8 +232,27 @@ p.producto{
     text-align: center;
     font-weight: bold;
 }
+**/
+
 
 /** PATRONES **/
+
+div.videos{
+    background-color: #4d4b4a;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+h3.videos{
+    padding: 30px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/**1er entrega
+div.patrones{
+    margin-top: 50px;
+}
 
 h3{
     background-color: #4d4b4a;
@@ -216,9 +286,50 @@ iframe.videos{
     justify-content: space-evenly;
     padding: 20px;
 }
+**/
+
 /** CONTACTO **/
 
+div.nombre{
+    margin-top: 50px;
+    padding: 0%;
+    border: 2px solid #4d4b4a;
+    border-radius: 5px;
+}
 
+div.email{
+    margin-top: 20px;
+    padding: 0%;
+    border: 2px solid #4d4b4a;
+    border-radius: 5px;
+}
+
+div.opciones{
+    margin-top: 20px;
+    padding: 0%;
+    border: 2px solid #4d4b4a;
+    border-radius: 5px;
+}
+
+div.consulta{
+    margin-top: 20px;
+    padding: 0%;
+    border: 2px solid #4d4b4a;
+    border-radius: 5px;
+}
+
+input.boton{
+    margin-top: 30px;
+    background-color: #cab1a5;
+    border: 1px solid #4d4b4a;
+}
+
+input.boton:hover{
+    background-color: #4d4b4a !important;
+    border: 1px solid #4d4b4a !important;
+}
+
+/** 1er entrega
 div.opciones{
     text-align: left;
     color: #4d4b4a;
@@ -287,7 +398,7 @@ select#opciones, input.novedades, input.botones{
 
 input{
     margin: 10px;
-}
+}**/
 
 
 
