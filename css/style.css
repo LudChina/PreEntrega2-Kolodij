@@ -6,145 +6,101 @@
 }
 
 body{
-    /*background-color: #d0c3ba;*/
     background-color: whitesmoke;
     height: auto;
     width: 100%;
 }
 
 
-/**      HEADER      **/
+/**      NAVBAR      **/
 
-#header{
-    background-color: #d0c3ba;
-    /*border: 10px solid #da7a69;*/
-    border-bottom: 10px solid #4d4b4a;
-    display: flex;
-
-    
-}
-
-.logo{
-    /*border: 10px solid whitesmoke;*/
-    border-radius: 15px;
-    width: 200px;
+img.logo{
+    width: 15%;
     height: auto;
-    margin-left: 40px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
 }
 
-nav#menu{
-    margin-top: 100px;
-    margin-left: 600px;
-    
+nav.navbar{
+    background-color: #d0c3ba;
+    border-bottom: 5px solid #4d4b4a;
 }
 
-.menu li a{
-    font-weight: bold;
-    font-size: 18px;
+a.nav-link{
     color: #4d4b4a;
-    text-decoration: none;
-    padding: 10px;
 }
 
-
-
-li{
-  list-style: none;
-  display: inline;
-  
+a.nav-link:hover{
+    color: white;
 }
-
 
 
 /** FOOTER **/
-  #footer{
-    margin-bottom: 0;
-    display: flex;
-    background-color: whitesmoke;
-    border-top: 10px solid #cab1a5;
-  }
 
-  img.footer{
-    width: 60px;
-    height: auto;
-    margin: 30px;
-  }
-
-  ul.footer{
+div.footer{
+    border-top: 5px solid #d0c3ba;
+    background-color: white;
     margin-top: 40px;
-  }
-
-  p.footer a{
-    text-decoration: none;
-    color: #4d4b4a;
-    margin-left: 10px;
-    font-weight: bold;
-  }
-
-  p.contacto{
-    margin-top: 10px;
-  }
-
-
-/** INDEX **/
-
-div.sumireTejidos{
-
-    text-align: center;
-    padding: 15px;
-    margin-top: 25px;
-    color: #4d4b4a;
+    padding: 20px;
 }
 
-/*h3, h4, h2{
-    margin-top: 20px;
-}*/
-
-div#tienda{
-    background-color: #cab1a5;
-    text-align: center;
-    height: 200px;
+img.instagram{
+    width: 30px;
+    height: auto;
 }
 
-h2.tienda {
-    color: #4d4b4a;
-    padding-top: 50px;
+/**CAROUSEL**/
+
+div#carouselExampleIndicators{
+    margin-top: 50px;
+    
 }
 
-a.tienda{
-    text-decoration: none;
-    color: #4d4b4a;
-    font-size: xx-large;  
-    text-decoration: underline;
-}
+/** DIV PRODUCTOS **/
 
-p.tienda{
-    font-weight: bold;
-    color:#4d4b4a;
-    padding-top: 40px;
-}
-
-div#suscripcion{
-    height: 100px;
-    background-color: #4d4b4a;
-    text-align: center;
+div.productos{
     margin-top: 100px;
-    margin-bottom: 100px;
+    height: 200px !important;
+    padding-top: 60px;
+    text-align: center;
+    background-color: #cab1a5;
 }
 
-p.suscripcion{
-    color: whitesmoke;
-    font-weight: bold;
-    padding-top: 15px;
+a.shop-now{
+    color: #4d4b4a !important;
+    text-decoration: none !important;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+}
+
+
+/**DIV SUSCRIPCION**/
+
+div.suscripcion{
+    margin-top: 100px;
+    height: 150px !important;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #4d4b4a;
 }
 
 a.suscripcion{
-    color: #cab1a5;
-    text-decoration: underline;
-    font-weight: bolder;
+    font-size: larger;
+    color: #d0c3ba !important;
+    text-decoration: none !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
 }
 
+a.footer{
+    color: #4d4b4a;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+a.footer:hover{
+    color: #cab1a5;
+}
 
 
 /** NOSOTROS**/
@@ -168,7 +124,7 @@ div.descripcion{
  div.descripcion p{
     width: 450px;
     margin-top: 25px;
-    padding: 15px;
+    padding: 5px;
     color: #cab1a5;
  }
 
@@ -332,5 +288,11 @@ select#opciones, input.novedades, input.botones{
 input{
     margin: 10px;
 }
+
+
+
+   
+
+
 
 
