@@ -143,6 +143,10 @@ img.retrato{
     div.nosotros p{
         padding: 0%   
     }
+
+    iframe{
+        width: 250;
+    }
 }
 
 /**1er ENTREGA
@@ -244,14 +248,14 @@ p.producto{
 /** PATRONES **/
 
 div.videos{
-    background-color: #4d4b4a;
+    background-color: #cab1a5;
     margin-top: 50px;
     border-radius: 10px;
 }
 
 h3.videos{
     padding: 30px;
-    color: white;
+    color: #4d4b4a;
     font-size: 2rem;
     font-weight: bold;
 }
