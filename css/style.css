@@ -138,14 +138,16 @@ img.retrato{
     padding: 0%;
     margin-top: 90px;
 }
-
+/**
 @media (max-width: 364px){
     div.nosotros p{
         padding: 0%   
     }
-
+}
+**/
+    @media (max-width: 746px){
     iframe{
-        width: 250;
+        width: fit-content !important;
     }
 }
 
