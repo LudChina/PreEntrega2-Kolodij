@@ -139,6 +139,12 @@ img.retrato{
     margin-top: 90px;
 }
 
+@media (max-width: 364px){
+    div.nosotros p{
+        padding: 0%   
+    }
+}
+
 /**1er ENTREGA
 section#nosotros{
     margin: 100px;
