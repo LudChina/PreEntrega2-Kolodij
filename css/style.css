@@ -41,7 +41,7 @@ a.nav-link:hover{
 
 div.footer{
     border-top: 5px solid #d0c3ba;
-    background-color: white;
+    background: linear-gradient(#d0c3ba, white);
     margin-top: 40px;
     padding: 20px;
 }
@@ -76,14 +76,18 @@ a.contacto_footer{
 /**MARCA**/
 
 div.marca{
-    background-color: #4d4b4a;
-    margin-top: 15px;
+    background: linear-gradient(#cab1a5, white);
     text-align: center;
 }
 
 h1.marca{
-    color: #cab1a5;
-    padding: 10px;
+    color: #4d4b4a;
+    padding: 20px;
+    font-weight: bolder;    
+}
+
+a.marca{
+    text-decoration: none;
 }
 
 /**CAROUSEL**/
@@ -166,17 +170,32 @@ img.retrato{
 
 /** PRODUCTOS **/
 
-div.productos{
-    background-color: #cab1a5;
-    border: 5px solid #4d4b4a;
-    border-radius: 10px;
-    margin-top: 100px;
-    animation-duration: 3s;
+div.tienda{
+    background: linear-gradient(white, #cab1a5);
+    margin-top: 50px;
+    height: 100px;
 }
+
+h2.tienda{
+    color: #4d4b4a;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.productos{
+    /**background-color: #cab1a5;
+    border: 5px solid #4d4b4a;
+    border-radius: 10px;**/
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
 
 div .foto{
     margin-top: 20px;
 }
+
 
 div.productos p{
     color: #4d4b4a;
