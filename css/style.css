@@ -51,9 +51,40 @@ img.instagram{
     height: auto;
 }
 
+a.footer{
+    color: #4d4b4a;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+a.footer:hover{
+    color: #cab1a5;
+}
+
+a.contacto_footer{
+    display: block;
+    margin-top: 10px;
+    padding-left: 5px;
+    color: #4d4b4a;
+}
+
+
 
 
 /**INDEX**/
+
+/**MARCA**/
+
+div.marca{
+    background-color: #4d4b4a;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h1.marca{
+    color: #cab1a5;
+    padding: 10px;
+}
 
 /**CAROUSEL**/
 
@@ -98,15 +129,6 @@ a.suscripcion{
     font-weight: bold !important;
 }
 
-a.footer{
-    color: #4d4b4a;
-    font-size: 1rem;
-    text-decoration: none !important;
-}
-
-a.footer:hover{
-    color: #cab1a5;
-}
 
 
 /** NOSOTROS**/
@@ -118,8 +140,8 @@ div.presentacion{
 div.nosotros{
     background-color: #4d4b4a;
     border-radius: 10px;
-    margin-top: 120px;;
-    height: 600px;
+    margin-top: 100px;;
+    height: 550px;
 }
 
 div.nosotros p{
@@ -149,6 +171,7 @@ div.productos{
     border: 5px solid #4d4b4a;
     border-radius: 10px;
     margin-top: 100px;
+    animation-duration: 3s;
 }
 
 div .foto{
