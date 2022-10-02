@@ -13,6 +13,12 @@ body{
     width: 100%;
 }
 
+@media (max-width: 985px){
+    div.offcanvas{
+          background: linear-gradient(#d0c3ba, white);
+          justify-items: end;
+}
+}
 /**      NAVBAR      
 
 img.logo{
