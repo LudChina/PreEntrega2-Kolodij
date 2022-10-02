@@ -204,7 +204,6 @@ div.productos p{
 }
 
 
-
 /** PATRONES **/
 
 div.videos{
@@ -273,20 +272,10 @@ input.boton:hover{
     border: 1px solid #4d4b4a !important;
 }
 
+/**MEDIA**/
 
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
+@media (max-width: 746px) {
+    iframe{
+        width: fit-content;
+    }
+}
