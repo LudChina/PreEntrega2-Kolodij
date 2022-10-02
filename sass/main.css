@@ -9,7 +9,7 @@ nav.navbar a.nav-link:hover {
   color: white;
 }
 nav.navbar img.logo {
-  width: 10%;
+  width: 30%;
   height: auto;
   margin-top: 10px;
   margin-left: 40px;
@@ -48,7 +48,7 @@ div.presentacion div.nosotros {
   background-color: #4d4b4a;
   border-radius: 10px;
   margin-top: 100px;
-  height: 550px;
+  height: 560px;
 }
 div.presentacion p {
   color: white;
