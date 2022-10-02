@@ -13,7 +13,7 @@ body{
     width: 100%;
 }
 
-/**      NAVBAR      **/
+/**      NAVBAR      
 
 img.logo{
     width: 10%;
@@ -35,8 +35,8 @@ a.nav-link:hover{
     color: white;
 }
 
-
-/** FOOTER **/
+**/
+/** FOOTER 
 
 div.footer{
     border-top: 5px solid white;
@@ -65,7 +65,7 @@ a.contacto_footer{
     margin-top: 10px;
     padding-left: 5px;
     color: #4d4b4a;
-}
+}**/
 
 div.gradient{
     width: 100%;
@@ -137,7 +137,7 @@ a.suscripcion{
 
 
 
-/** NOSOTROS**/
+/** NOSOTROS
 
 div.presentacion{
     padding: 15px;
@@ -165,7 +165,7 @@ img.retrato{
     height: auto;
     padding: 0%;
     margin-top: 90px;
-}
+}**/
 
 
 
@@ -185,9 +185,6 @@ h2.tienda{
 }
 
 div.productos{
-    /**background-color: #cab1a5;
-    border: 5px solid #4d4b4a;
-    border-radius: 10px;**/
     margin-top: 100px;
     margin-bottom: 300px;
 }

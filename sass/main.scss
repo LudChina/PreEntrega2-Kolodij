@@ -1,0 +1,68 @@
+nav.navbar{
+    background-color: #d0c3ba;
+    border-bottom: 2px solid #4d4b4a;
+          a.nav-link{
+            color: #4d4b4a;
+          }
+          a.nav-link:hover{
+            color:white;
+          }
+          img.logo{
+            width: 10%;
+            height: auto;
+            margin-top: 10px;
+            margin-left: 40px;
+          }
+}
+
+div.footer{
+    border-top: 5px solid white;
+    background: linear-gradient(white, #d0c3ba);
+    margin-top: 40px;
+    padding: 20px;
+          a.footer{
+            color: #4d4b4a;
+            font-size: 1rem;
+            text-decoration: none !important;
+          }
+          a.footer:hover{
+            color: #cab1a5;
+          }
+          a.contacto_footer{
+            display: block;
+            margin-top: 10px;
+            padding-left: 5px;
+            color: #4d4b4a;
+          }
+          img.instagram{
+            width: 30px;
+            height: auto;
+          } 
+}
+
+/**NOSOTROS**/
+
+div.presentacion{
+    padding:15px;
+        div.nosotros{
+            background-color: #4d4b4a;
+            border-radius: 10px;
+            margin-top: 100px;;
+            height: 550px;
+        }
+            p{
+               color: white;
+               padding: 15px;
+        }
+        div.retrato{
+            height: 700px;
+            background-color: white;
+        }
+        img.retrato{
+            width: 400px;
+            height: auto;
+            padding: 0%;
+            margin-top: 90px;
+        }
+                
+}
