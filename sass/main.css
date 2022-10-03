@@ -1,3 +1,4 @@
+/**Navbar**/
 nav.navbar {
   background-color: #d0c3ba;
   border-bottom: 2px solid #4d4b4a;
@@ -15,6 +16,24 @@ nav.navbar img.logo {
   margin-left: 40px;
 }
 
+@media (max-width: 985px) {
+  div.offcanvas {
+    background: linear-gradient(#d0c3ba, white);
+    justify-items: end;
+    width: 30% !important;
+  }
+  div.offcanvas ul.menu {
+    display: block;
+  }
+  a.logo {
+    width: 30%;
+  }
+  a.logo img.logo {
+    margin-left: 25px;
+    width: 50%;
+  }
+}
+/**Footer**/
 div.footer {
   border-top: 5px solid white;
   background: linear-gradient(white, #d0c3ba);
