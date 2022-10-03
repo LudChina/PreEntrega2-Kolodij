@@ -17,7 +17,14 @@ body{
     div.offcanvas{
           background: linear-gradient(#d0c3ba, white);
           justify-items: end;
-}
+          width: 30% !important;
+    }
+    a.logo{
+          width: 30%;
+    }
+    ul.menu{
+          display: block;
+    }
 }
 /**      NAVBAR      
 
