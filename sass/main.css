@@ -58,6 +58,12 @@ div.footer img.instagram {
   width: 30px;
   height: auto;
 }
+div.footer p.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #4d4b4a;
+  font-size: 1rem;
+}
 
 /**NOSOTROS**/
 div.presentacion {
@@ -82,4 +88,17 @@ div.presentacion img.retrato {
   height: auto;
   padding: 0%;
   margin-top: 90px;
+}
+
+/**SALUDO**/
+div.saludo {
+  margin-top: 100px;
+  height: 200px !important;
+  padding-top: 60px;
+  text-align: center;
+  background: radial-gradient(#cab1a5, white);
+}
+div.saludo h2.saludo {
+  margin-top: 20px;
+  color: #4d4b4a;
 }/*# sourceMappingURL=main.css.map */

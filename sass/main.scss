@@ -60,6 +60,12 @@ div.footer{
           img.instagram{
             width: 30px;
             height: auto;
+          }
+          p.footer{
+            margin-top: 10px;
+            text-align: center;
+            color: #4d4b4a;
+            font-size: 1rem;
           } 
 }
 
@@ -89,3 +95,17 @@ div.presentacion{
         }
                 
 }
+
+/**SALUDO**/
+div.saludo{
+  margin-top: 100px;
+  height: 200px !important;
+  padding-top: 60px;
+  text-align: center;
+  background: radial-gradient( #cab1a5, white);
+      h2.saludo{
+        margin-top: 20px;
+        color: #4d4b4a;
+      }
+}
+ 
